@@ -1,0 +1,23 @@
+   
+<div class="card" id="card${{card.id}}">
+    <div class="card-body">
+      <div class="ColTitleContainer btnRemove">
+        <h5 class="card-title" contentEditable="true" spellcheck="false">{{card.nombre}} </h5>
+        <button style="margin-left: auto;" type="button" class="btn btn-danger btnp btn-deleteCard" onclick="deleteCard(this)">
+            <b>X</b>
+        </button>
+      </div>
+      <hr>
+      <div class ="card-text-container">
+        <p class="card-text" contentEditable="true">{{card.desc}}</p>
+      </div>
+      <hr>
+      <div class="card-expiration-container">
+        <p class="card-expiration"> Vencimiento: 
+        <input class= "card-expiration-input" type="date" value= "{{card.expDate}}" />
+        </p>
+      </div>
+    </div>
+</div>
+
+

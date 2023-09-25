@@ -1,0 +1,19 @@
+<h2>{{title}}</h2>
+<div id="Col1" class="colu">
+    <div class="ColTitleContainer">
+      <h2 class="ColTitle" contentEditable="true" spellcheck="false">{{title}}</h2>
+      <div class="alignRight">
+        <button style="margin-left: auto;" type="button" class="btn btn-success">
+          <b>+</b>
+        </button>
+        <button style="margin-left: auto;" type="button" class="btn btn-danger">
+          <b>-</b>
+        </button>
+      </div>
+    </div>
+    <hr class="whitehr">
+</div>
+<ul class="column">
+  <li *ngFor="let card of cards">
+  </li>
+</ul>

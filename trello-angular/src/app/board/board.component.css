@@ -1,0 +1,7 @@
+.bgComponent{
+    background-image: url(https://cdn1.epicgames.com/ue/product/Screenshot/1-1920x1080-a58e6c53fee218623cb26ba39786d1e5.jpg?resize=1&w=1920);
+    background-repeat: repeat-y;
+    background-size: auto;
+    height: 100vh;
+    width: 100vw;
+}
