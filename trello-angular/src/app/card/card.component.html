@@ -1,9 +1,9 @@
    
-<div class="card" id="card${{card.id}}">
+<div class="card" id="card${{card.id}}" *ngFor="let card of cards">
     <div class="card-body">
       <div class="ColTitleContainer btnRemove">
         <h5 class="card-title" contentEditable="true" spellcheck="false">{{card.nombre}} </h5>
-        <button style="margin-left: auto;" type="button" class="btn btn-danger btnp btn-deleteCard" onclick="deleteCard(this)">
+        <button style="margin-left: auto;" type="button" class="btn btn-danger btnp btn-deleteCard" (click)="deleteCard(this)">
             <b>X</b>
         </button>
       </div>

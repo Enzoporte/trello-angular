@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CARDS } from '../mock-cards';
 import { Card } from '../Card';
 
 @Component({
@@ -8,18 +9,12 @@ import { Card } from '../Card';
 })
 export class CardComponent {
 
+  cards = CARDS;
   constructor() { }
 
-  card: Card = {
-    id: 1,
-    nombre: "a",
-    desc: "asd",
-    expDate: new Date()
-  };
-
-  deleteCard() {
+  deleteCard(button: any) {
     console.log("deleted Card");
-    // .remove
+    button.parentElement?.parentElement?.remove();
   }
 
 }

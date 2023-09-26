@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CardComponent } from '../card/card.component';
+import { CARDS } from '../mock-cards';
 
 @Component({
   selector: 'app-column',
@@ -8,5 +9,5 @@ import { CardComponent } from '../card/card.component';
 })
 export class ColumnComponent {
   @Input() title?: string;
-  cards: CardComponent[] = [];
+  cards = CARDS; // Cartas importadas de mock-cards.ts con un array de Cartas
 }
