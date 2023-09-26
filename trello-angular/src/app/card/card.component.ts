@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { CARDS } from '../mock-cards';
-import { Card } from '../Card';
 
 @Component({
   selector: 'app-card',
