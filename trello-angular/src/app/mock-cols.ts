@@ -7,13 +7,13 @@ export const COLS: Cols[] = [
         cards: [
             {
                 id: 1,
-                nombre: "Carta1",
+                nombre: "Carta1 me cargue bien :D",
                 desc: "Soy la Carta 1",
                 expDate: new Date()
             },
             {
                 id: 2,
-                nombre: "Carta2",
+                nombre: "Carta2 WAAAAAAAAAAAAAAAAAAAs",
                 desc: "Soy la Carta 2",
                 expDate: new Date()
             },
@@ -31,7 +31,7 @@ export const COLS: Cols[] = [
         cards: [
             {
                 id: 1,
-                nombre: "Carta1",
+                nombre: "Carta1 asd asd",
                 desc: "Soy la Carta 1",
                 expDate: new Date()
             },

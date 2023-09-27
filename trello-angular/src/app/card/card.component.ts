@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { CARDS } from '../mock-cards';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -7,9 +6,9 @@ import { CARDS } from '../mock-cards';
   styleUrls: ['card.component.css']
 })
 export class CardComponent {
-
-  cards = CARDS;
   constructor() { }
+
+  @Input() cards:any ;
 
   deleteCard(button: any) {
     console.log("deleted Card");
