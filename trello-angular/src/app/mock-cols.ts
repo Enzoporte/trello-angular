@@ -3,7 +3,7 @@ import { Cols } from "./Cols";
 export const COLS: Cols[] = [
     {
         id: 1,
-        title: "FALTA CARGAR LA LISTA DE ABAJO - MOCK-COLS.TS",
+        title: "TODO JOYA",
         cards: [
             {
                 id: 1,
